@@ -1,0 +1,36 @@
+<!-- templates/index.html -->
+ <div class="main" >
+{% extends "base.html" %}
+
+{% block content %}
+ <div class="row row-margin">
+    <div class="page_pad">
+      <div class="col l6 m6 s12 grey lighten-3 img-wrapper">
+          <img src="{{ url_for('static', filename='../static/images/IMG_3035-01res.jpg') }}"  class="profile-img" width="300" height="411">
+      </div>
+          <div class="profile-text">
+          <h5>ABOUT ME</h5>
+          <p>
+              I`m beginner developer in Precarpatian university.
+          </p>
+           <p>
+              Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nulla vitae elit libero,
+              a pharetra augue. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum
+              nulla sed consectetur. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus
+              varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit.
+          </p>
+          <p>
+            Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus
+            commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean eu leo quam.
+            Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit
+            sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet
+            rutrum faucibus dolor auctor.
+
+          </p>
+      </div>
+     </div>
+    </div>
+    </div>
+{% endblock %}
+
+</div>
